@@ -9,3 +9,15 @@ print(names.sort(reverse=True))
 print(names)
 "to print list type"
 print(type(names))
+names.insert(2,"Muhammmad Hais")
+print(names)
+
+
+
+
+
+"now lets work over tuples "
+tup=( "zain","Maria","Aisha","Sarah","Nadia")
+print(tup)
+print(tup.index("M aria"))
+print(tup)

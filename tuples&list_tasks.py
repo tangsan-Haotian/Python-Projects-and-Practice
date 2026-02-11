@@ -7,7 +7,7 @@ m4=input("input the 4rth movie ")
 m5=input("input the 5tht movie ")
 
 movies.append(m1)
-movies.append(m2)
+movies.append(m2) 
 movies.append(m3)
 movies.append(m4)
 movies.append(m5)

@@ -9,4 +9,3 @@ details = {
 
 }
 print(details)
-print(details( name))

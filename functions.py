@@ -19,3 +19,16 @@ print("iam here ti understand you love",)
 
 #both values will be printed over same line 
 
+#functions to understand recusrion and other topics 
+
+#factorial
+
+Print("kindly input the main  value to print the factorial and other thigs")
+num = int(input("Enter a number: "))
+
+fact = 1
+
+for i in range(1, num + 1):
+    fact *= i
+
+print("Factorial is:", fact)

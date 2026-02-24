@@ -23,7 +23,7 @@ print("iam here ti understand you love",)
 
 #factorial
 
-Print("kindly input the main  value to print the factorial and other thigs")
+print("kindly input the main  value to print the factorial and other thigs")
 num = int(input("Enter a number: "))
 
 fact = 1

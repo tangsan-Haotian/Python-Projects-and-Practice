@@ -1,0 +1,1 @@
+#this file is  being used  to understand file handling in python

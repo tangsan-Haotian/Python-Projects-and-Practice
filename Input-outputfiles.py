@@ -33,6 +33,14 @@ file.close()
 # file.close()
 
 
-with open("text.txt","r") as file:
-    content=file.read()
-    print(content)
+# with open("text.txt","r") as file:
+#     content=file.read()
+#     print(content)
+
+f=open("text.txt","r") 
+
+# content=f.read()  #if i write read(10) then it would show that the function is gonna print the lines and  10 character of file 
+content=f.readline(2) #this would print the lines from specific caracter file
+print(content)
+
+f.close()

@@ -18,6 +18,21 @@ file.close()
 
 #this automaticly close file and then suggest the best output regarding it 
 
-with open("functions.py", "r") as file:
-    content = file.read()
+# with open("functions.py", "r") as file:
+#     content = file.read()
+#     print(content)
+
+
+
+#to write in any file and replace the main this that may be you attain it 
+# file = open("text.txt", "w")
+
+# file.write("Hello Zain, this is my text file.\n")
+# file.write("Python file handling is easy!")
+
+# file.close()
+
+
+with open("text.txt","r") as file:
+    content=file.read()
     print(content)

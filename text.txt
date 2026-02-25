@@ -1,0 +1,2 @@
+Hello Zain, this is my text file.
+Python file handling is easy!

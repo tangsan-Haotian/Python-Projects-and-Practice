@@ -53,6 +53,20 @@
 # f.close()
 
 #this read the daata and then implify the result
-with open("text.txt", "r+") as f:
-    data = f.read()
+# with open("text.txt", "r+") as f:
+#     data = f.read()
+#     print(data)
+
+#modules are like functions that we can use to make a code functionable and reusable till its in need 
+
+import os
+#OS  is a module that is mostly used to perform 
+with open("practice.txt","w") as f:
+    f.write("iam here to rule this city not to survive in this ")
+#thsi creat the file and then put the data in it 
+
+with open("practice.txt","r") as f:
+    data=f.read()
     print(data)
+
+

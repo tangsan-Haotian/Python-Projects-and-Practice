@@ -9,11 +9,11 @@
 # system not online 
 
 
-#this is the manual method to open and close the file in proper way 
-file= open("Dictionary.py", "r") 
-content = file.read()
-print(content)
-file.close()
+# #this is the manual method to open and close the file in proper way 
+# file= open("Dictionary.py", "r") 
+# content = file.read()
+# print(content)
+# file.close()
 
 
 #this automaticly close file and then suggest the best output regarding it 
@@ -37,10 +37,20 @@ file.close()
 #     content=file.read()
 #     print(content)
 
-f=open("text.txt","r") 
+# f=open("text.txt","r") 
 
-# content=f.read()  #if i write read(10) then it would show that the function is gonna print the lines and  10 character of file 
-content=f.readline(2) #this would print the lines from specific caracter file
-print(content)
+# #  content=f.read()  #if i write read(10) then it would show that the function is gonna print the lines and  10 character of file 
+# # content=f.readline(2) #this would print the lines from specific caracter file
+# # print(content)
+
+# f.close()
+
+
+f = open("text.txt","a+")
+
+f.seek(0)   # Move pointer to start
+print(f.read())
+
+f.write(" its me zain here to help you son")
 
 f.close()

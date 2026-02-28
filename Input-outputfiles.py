@@ -46,11 +46,13 @@
 # f.close()
 
 
-f = open("text.txt","a+")
+# f = open("text.txt","a+")
+# f.seek(0)   # Move pointer to start
+# print(f.read())
+# f.write(" its me zain here to help you son")
+# f.close()
 
-f.seek(0)   # Move pointer to start
-print(f.read())
-
-f.write(" its me zain here to help you son")
-
-f.close()
+#this read the daata and then implify the result
+with open("text.txt", "r+") as f:
+    data = f.read()
+    print(data)

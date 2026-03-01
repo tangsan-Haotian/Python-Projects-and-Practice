@@ -59,14 +59,28 @@
 
 #modules are like functions that we can use to make a code functionable and reusable till its in need 
 
-import os
-#OS  is a module that is mostly used to perform 
-with open("practice.txt","w") as f:
-    f.write("iam here to rule this city not to survive in this ")
-#thsi creat the file and then put the data in it 
+# import os
+# #OS  is a module that is mostly used to perform 
+# with open("practice.txt","w") as f:
+#     f.write("iam here to rule this city not to survive in this ")
+# #thsi creat the file and then put the data in it 
 
-with open("practice.txt","r") as f:
-    data=f.read()
-    print(data)
+# with open("practice.txt","r") as f:
+#     data=f.read()
+#     print(data)
+
+# this will return the line number in the text where the  word will be matched
+
+# def check_for_line():
+#     word = "zain"
+#     line_no = 1
+    
+#     with open("text.txt", "r") as f:
+#         for line in f:
+#             if word in line:
+#                 return line_no
+#             line_no += 1
+    
+#     return -1
 
 

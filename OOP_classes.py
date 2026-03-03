@@ -13,4 +13,5 @@ print(s1.name)
 
 s2=student()
 s2.name="Oshaque"
-print()
+print(s2.name)
+

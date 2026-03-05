@@ -14,4 +14,5 @@ print(s1.name)
 s2=student()
 s2.name="Oshaque"
 print(s2.name)
+print(s1.name)
 

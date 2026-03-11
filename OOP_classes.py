@@ -39,5 +39,7 @@ print(s1.marks)
 s1.wellcome()
 #this shows how to use these things and understand them peroperly in sequesnces 
 
+#this was to make it correct
+
 
 
